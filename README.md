@@ -102,5 +102,5 @@ npx @modelcontextprotocol/inspector uv run jexchange-mcp-server
 ```
 
 ## Examples of Questions for Cline
-1. "查询下苏州的天气"
-2. "今天上海的天气如何？"
+1. "当前美元兑换人民币的汇率是多少？"
+2. "那么人民币和越南货币兑换汇率呢"

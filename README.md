@@ -1,5 +1,7 @@
 # Juhe Exchange Rates MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@juhemcp/jexchange-mcp-server)](https://smithery.ai/server/@juhemcp/jexchange-mcp-server)
+
 一个提供实时全球货币汇率查询功能的模型上下文协议（Model Context Protocol）服务器。该服务器使大型语言模型（LLMs）能够获取实时货币汇率情况。
 
 ## Components
@@ -21,6 +23,14 @@ async def query_exchange_rates(
 
 ## Install
 This server requires Python 3.10 or higher. Install dependencies using uv (recommended) or pip
+
+### Installing via Smithery
+
+To install Juhe Exchange Rates MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@juhemcp/jexchange-mcp-server):
+
+```bash
+npx -y @smithery/cli install @juhemcp/jexchange-mcp-server --client claude
+```
 
 ### Using uv (recommended)
 When using [uv](https://docs.astral.sh/uv/) no specific installation is needed. We will use [uvx](https://docs.astral.sh/uv/guides/tools/) to directly run jexchange-mcp-server.

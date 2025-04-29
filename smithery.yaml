@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - juheExchangeApiKey
+    properties:
+      juheExchangeApiKey:
+        type: string
+        description: 聚合数据 API 密钥，用于查询汇率
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'jexchange-mcp-server', args: [], env: { JUHE_EXCHANGE_API_KEY: config.juheExchangeApiKey }} )
+  exampleConfig:
+    juheExchangeApiKey: YOUR_JUHE_EXCHANGE_API_KEY

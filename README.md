@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/juhemcp-jexchange-mcp-server-badge.png)](https://mseep.ai/app/juhemcp-jexchange-mcp-server)
+
 # Juhe Exchange Rates MCP Server
 
 一个提供实时全球货币汇率查询功能的模型上下文协议（Model Context Protocol）服务器。该服务器使大型语言模型（LLMs）能够获取实时货币汇率情况。

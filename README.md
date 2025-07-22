@@ -2,6 +2,10 @@
 
 一个提供实时全球货币汇率查询功能的模型上下文协议（Model Context Protocol）服务器。该服务器使大型语言模型（LLMs）能够获取实时货币汇率情况。
 
+<a href="https://glama.ai/mcp/servers/@juhemcp/jexchange-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@juhemcp/jexchange-mcp-server/badge" alt="Juhe Exchange Rates Server MCP server" />
+</a>
+
 ## Components
 
 ### Tools
